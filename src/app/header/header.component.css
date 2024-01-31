@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333333;
+  padding: 1.3vw 2.5vw;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: 600;
+  letter-spacing: 0.1vw;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1vw;
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 0.9vw;
+}
+
+.Buscador{
+  display: flex;
+  gap: 1vw;
+}
+
+.Buscador input{
+  padding: 0.5vw;
+  border-radius: 0.6vw;
+  border: none;
+}
+
+.Buscador button {
+  border-radius: 0.5vw;
+  border: none;
+  background-color: #2c8eff;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 4vw;
+  height: 2vw;
+}
+
+.user a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1vw;
+}
