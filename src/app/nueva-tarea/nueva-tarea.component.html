@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="nueva-tarea.component.css">
+<section class="new-task">
+  <h2>Nueva Tarea</h2>
+  <form action="">
+      <label for="task-title">Título:</label>
+      <input type="text" id="task-title" name="task-title" required>
+      <label for="due-date">Fecha de Vencimiento:</label>
+      <input type="date" id="due-date" name="due-date" required>
+      <label for="priority">Prioridad:</label>
+      <select name="priority" id="priority" required>
+          <option value="alta">Alta</option>
+          <option value="media">Media</option>
+          <option value="baja">Baja</option>
+      </select>
+      <button type="submit">Agregar Tarea</button>
+  </form>
+</section>
+

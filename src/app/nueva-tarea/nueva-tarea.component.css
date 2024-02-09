@@ -1,0 +1,21 @@
+.new-task {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.new-task form {
+  display: flex;
+  flex-direction: column;
+  width: 16vw;
+  gap: 0.5vw;
+}
+
+.new-task label {
+}
+
+.new-task input,
+.new-task select,
+.new-task button {
+  margin-bottom: 0.5vw;
+}
